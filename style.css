@@ -1,5 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Parisienne', cursive;
+  /* font-family: 'Satisfy', cursive; */
   font-size: 16px;
   line-height: 1;
 }
@@ -13,12 +14,16 @@ textarea{
   padding: 10px;
 }
 
+p {
+  color: gold;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid indigo;
 }
 
 .description{
