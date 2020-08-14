@@ -1,33 +1,12 @@
 #  Work Day Scheduler
 
-Are you an worker bee with a busy schedule? This is the scheduler for you!
+Are you an worker bee with a busy schedule? Do you need help managing your time effectively? This is the scheduler for you!
 
 This work day scheduler saves your events for each hour of the day.
 
 
-It's powered by jQuery.
+*** When you open this planner, you will see it's set for the current day. The day's work hours (9am - 5pm) will be displayed. The timeblocks are color-coded to indicate past, present, and future. You can add events to the timeblock of your choice. Your plans will be saved for you, even when you refresh your browser. Enjoy! ***
 
-## User Story
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+Languages used: jQuery, JavaScript, HTML, CSS, and Moment.js .
 
-## Acceptance Criteria
-
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
